@@ -767,6 +767,17 @@ section .container {
   color: var(--dark-green);
 }
 
+/* Skills Section Logo Styling */
+#skills .icon-box img {
+  height: 70px;
+  width: auto;
+  max-width: 220px;
+  margin: 10px 8px;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
