@@ -8,3 +8,6 @@ Thumbs.db
 
 # Linux
 *~
+
+# Claude Code
+.claude/
