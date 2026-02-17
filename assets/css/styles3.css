@@ -1158,23 +1158,64 @@ section .container {
 /*--------------------------------------------------------------
 # Work Samples
 --------------------------------------------------------------*/
-.work-samples .work-sample-group {
-  background: var(--dark-blue);
-  border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 30px;
+
+/* Folder */
+.work-samples .work-sample-folder {
+  margin-bottom: 20px;
 }
 
-.work-samples .work-sample-group-title {
-  font-size: 22px;
+.work-samples .work-sample-folder-header {
+  display: flex;
+  align-items: center;
+  background: var(--dark-blue);
+  padding: 16px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.work-samples .work-sample-folder-header:hover {
+  background: #c0c0c4;
+}
+
+.work-samples .work-sample-folder-header .bx-folder {
+  font-size: 28px;
+  color: var(--golden-yellow);
+  margin-right: 12px;
+}
+
+.work-samples .work-sample-folder-name {
+  font-size: 20px;
   font-weight: 700;
   color: var(--navy-blue);
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid var(--golden-yellow);
   font-family: 'Poppins', sans-serif;
+  flex: 1;
 }
 
+.work-samples .work-sample-folder-arrow {
+  font-size: 22px;
+  color: var(--navy-blue);
+  transition: transform 0.3s;
+}
+
+.work-samples .work-sample-folder.open .work-sample-folder-arrow {
+  transform: rotate(90deg);
+}
+
+/* Folder content - hidden by default */
+.work-samples .work-sample-folder-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.work-samples .work-sample-folder.open .work-sample-folder-content {
+  max-height: 1000px;
+  padding-top: 20px;
+}
+
+/* Cards */
 .work-samples .work-sample-card {
   background: #fff;
   padding: 20px;
