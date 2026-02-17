@@ -1156,26 +1156,11 @@ section .container {
 /*--------------------------------------------------------------
 # Work Samples
 --------------------------------------------------------------*/
-.portfolio .portfolio-wrap.work-sample-card {
+.work-sample-card {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  overflow: visible;
-  position: relative;
-  z-index: 1;
-}
-
-.portfolio .portfolio-wrap.work-sample-card::before {
-  display: none;
-}
-
-.portfolio .portfolio-wrap.work-sample-card:hover::before {
-  display: none;
-}
-
-.portfolio .portfolio-wrap.work-sample-card:hover {
-  background: #fff;
 }
 
 .work-sample-title {
@@ -1199,8 +1184,6 @@ section .container {
   border-radius: 4px;
   text-decoration: none;
   display: inline-block;
-  position: relative;
-  z-index: 5;
 }
 
 .work-sample-btn:hover {
