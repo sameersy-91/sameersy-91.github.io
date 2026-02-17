@@ -1153,6 +1153,45 @@ section .container {
   }
 }
 
+/*--------------------------------------------------------------
+# Work Samples
+--------------------------------------------------------------*/
+.work-sample-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-sample-title {
+  color: var(--custom-dark-blue);
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.work-sample-desc {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.work-sample-btn {
+  background: #12d640;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.work-sample-btn:hover {
+  background: #0fb835;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Custom css */
 .img-responsive {
   width: 100%;
