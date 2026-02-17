@@ -1158,6 +1158,23 @@ section .container {
 /*--------------------------------------------------------------
 # Work Samples
 --------------------------------------------------------------*/
+.work-samples .work-sample-group {
+  background: var(--dark-blue);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.work-samples .work-sample-group-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--navy-blue);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--golden-yellow);
+  font-family: 'Poppins', sans-serif;
+}
+
 .work-samples .work-sample-card {
   background: #fff;
   padding: 20px;
